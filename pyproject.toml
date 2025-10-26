@@ -1,0 +1,18 @@
+[project]
+name = "ardubotr4"
+version = "0.1.0"
+description = "BLE robot controller (Arduino UNO R4 WiFi + Python GUI)"
+authors = [
+    { name = "Pavel Druzhinin" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+dependencies = [
+    "bleak (>=1.1.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
