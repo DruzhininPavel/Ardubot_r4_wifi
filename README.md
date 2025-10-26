@@ -10,7 +10,7 @@ The setup is designed to be simple: the robot advertises as "ardubotr4" and acce
 
 ## Repository layout
 - `sketch/ardubotr4.ino` – Arduino UNO R4 WiFi firmware (BLE peripheral)
-- `sketch/Readme.md` – Notes about the Arduino sketch (now in English)
+- `sketch/Readme.md` – Notes about the Arduino sketch
 - `main.py` – Python Tkinter BLE controller (BLE central)
 - `pyproject.toml` – Python project config (Poetry), depends on `bleak`
 
@@ -114,10 +114,10 @@ BLE service and characteristic (defined in the sketch):
 - Characteristic UUID: `19B10001-E8F2-537E-4F6C-D104768A1214`
 
 Commands accepted by the firmware (plain text):
-- `forward` (also supports `up` and Russian `вперед`)
-- `back` / `backward` (also supports `down` and Russian `назад`)
-- `left` (also supports Russian `влево`)
-- `right` (also supports Russian `вправо`)
+- `forward` (also supports `up`)
+- `back` / `backward` (also supports `down`)
+- `left` 
+- `right`
 - `switch` / `stop` (toggles enable/stop)
 
 Safety and behavior:
